@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&family=Montserrat+Alternates&display=swap');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 .navbar-brand{
     font-family: 'Advent Pro', sans-serif;
     font-weight: bold;
@@ -106,8 +107,19 @@ border-radius: 5px;
 #box{
     margin-bottom: 20px;
 }
+.btn-contactsecondary{
+    color: #fff;
+    font-weight: 500;
+    border-color: #603ce6; 
+    background-color:  #603ce6; 
+    border-radius: 5px;
 
-
+}
+.btn-contactsecondary:hover{
+    border-color: #603ce6; 
+    background-color:  #603ce6; 
+    color: #fff;
+}
 
 
 /*slider*/
@@ -223,6 +235,293 @@ color: #666;
 
 
 
+.theme-text {
+    color: #474af0;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    width: 100%;
+  }
+  .card {
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  .card:hover {
+    color: white;
+  }
+  .card:hover h3 {
+    color: white;
+}
+  .card::before {
+    content: "";
+    position: absolute;
+    left: -100%;
+    top: 0%;
+    background: #7274be;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    z-index: -1;
+  }
+  .card:hover::before {
+    left: 0%;
+    color: white;
+  }
+
+  
+
+  .container-fluid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+.container-fluid h1{
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 25px;
+    position: relative;
+}
+.container-fluid h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #603ce6;
+}
+
+
+
+
+
+
+
+
+
+
+/*contact*/
+.contact-container {
+	position: relative;
+	width: 100%;
+	height: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start; 
+	padding: 30px 100px;
+}
+.contact-container:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-size: cover;
+	filter: blur(50px);
+	z-index: -1;
+}
+.contact-box{
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+.left iframe{
+	padding: 10px 10px;
+	width: 105%;
+    height: 530px;
+}
+
+.right{
+	padding: 25px 40px;
+}
+
+h2{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+.right h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 160px;
+    border-radius: 2px;
+    background-color: #603ce6;
+}
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.btn-contact{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.btn-contact:hover{
+    background-color: green;
+}
+
+.field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+footer{
+    background-color: rgb(46, 36, 36);
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    padding: 2rem 1rem;
+}
+
+.footer-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col{
+    min-width: 250px;
+    color:#f2f2f2f2;
+    font-family: poppins;
+    padding:0 2rem;
+}
+#fotlog{
+    margin-bottom: 15px;
+}
+
+.col .logo{
+    width: 100px;
+    margin-bottom:25px;
+}
+.col h3{
+    color:rgb(236, 236, 236);
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.col h3::after{
+    content: '';
+    height:3px;
+    width:0px;
+    background-color: rgb(187, 183, 184);
+    position: absolute;
+    bottom: 0;
+    left:0;
+    transition: 0.3s ease;
+
+}
+.col h3:hover::after{
+    width:30px
+}
+.col .social a i{
+    color:rgb(189, 185, 186);
+    margin-top:2rem;
+    margin-right: 5px;
+    transition: 0.3s ease;
+}
+.col .social a i:hover{
+    transform: scale(1.5);
+    filter:grayscale(25);
+}
+.col .links a{
+    display: block;
+    text-decoration: none;
+    color:#f2f2f2;
+    margin-bottom: 5px;
+    position: relative;
+    transition: 0.3s ease;
+}
+.col .links a::before{
+    content:'';
+    height: 16px;
+    width:3px;
+    position: absolute;
+    top:5px;
+    left:-10px;
+    background-color:rgb(189, 185, 186);
+    transition: 0.5s ease;
+    opacity: 0;
+}
+.col .links a:hover::before{
+    opacity: 1;
+}
+.col .links a:hover{
+    transform: translateX(-8px);
+    color:rgb(189, 185, 186);
+}
+.col .contact-details{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.col .contact-details i{
+    margin-right:15px;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 50px;
+}
 
 
 
@@ -238,17 +537,29 @@ color: #666;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+/********** Responsive Design ********/
+@media(max-width:932px)
+{
+  .footer-row{
+    flex-direction: column;
+  }
+  .col{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 25px;
+  }
+}
+@media(max-width:768px)
+{
+  .footer-row{
+    flex-direction: column;
+  }
+  .col{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+}
 
 
 
@@ -276,6 +587,21 @@ color: #666;
        margin-top: 13px;
    }
 }
+@media screen and (max-width: 345px){
+     .btn-contactsecondary{
+       margin-top: 15px;
+   }
+}
+@media screen and (max-width: 496px){
+    .btn-contactsecondary{
+      margin-top: 15px;
+  }
+}
+
+
+
+
+
 @media screen and (max-width: 768px){
     .Heading{
         padding: 0px 20px;
@@ -302,4 +628,13 @@ color: #666;
         padding: 0px;
         font-stretch: 16px;
     }
+   
+}
+@media screen and (max-width: 769px){
+	.contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left iframe{
+		padding: 0;
+	}
 }
