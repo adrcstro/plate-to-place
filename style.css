@@ -371,9 +371,13 @@ margin-bottom: 100px;
     width: 100%;
     height: 100%;
 }
+.custom-shadow {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1); /* Customize the shadow properties */
+}
 
-
-
+.accordion-item h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
 
 
 
