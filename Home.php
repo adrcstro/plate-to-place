@@ -49,10 +49,11 @@
             </ul>
           </li>
         </ul>
-        <form class="d-flex" id="btn-phonenavbar">
+        <form class="d-flex" id="btn-phonenavbar"  action="Loginsystem/login.php" method="post">
           
-          <button class="btn btn-brand" type="submit">Login</button>
+          <button  class="btn btn-brand" type="submit">Login</button>
           <button class="btn-signup" type="submit">Sign up</button>
+
         </form>
       </div>
     </div>
