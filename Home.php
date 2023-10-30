@@ -22,16 +22,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+            <a class="nav-link active" aria-current="page" href="#carouselExampleDark">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#About">About</a>
+            <a class="nav-link active" aria-current="page" href="#aboutus">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#Services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#Location">Location</a>
+            <a class="nav-link active" aria-current="page" href="#FAQ">FAQ</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#Contact">Contact</a>
@@ -42,19 +42,21 @@
               Blogs
             </a>
             <ul class="dropdown-menu" id="box" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">News</a></li>
+              <li><a class="dropdown-item" href="Home.php">News</a></li>
               <li><a class="dropdown-item" href="#">Events</a></li>
               
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li>
         </ul>
-        <form class="d-flex" id="btn-phonenavbar"  action="Loginsystem/login.php" method="post">
+        <form class="d-flex" id="btn-phonenavbar"  action="Loginsystem/Login.php" method="post">
           
           <button  class="btn btn-brand" type="submit">Login</button>
           <button class="btn-signup" type="submit">Sign up</button>
 
         </form>
+
+        
       </div>
     </div>
   </nav>
@@ -129,7 +131,7 @@
 
 <!--About Section-->
 
-<div class="Heading">
+<div class="Heading" id="aboutus">
 <h1>About Us</h1>
 <p>Brangay 409 Zone 42 4th District of Sampaloc Manila</p>
 </div>
@@ -154,7 +156,7 @@
 
 
 
-<div class="container-fluid">
+<div class="container-fluid" id="Services">
   <h1 class="text-center mt-5 text-underline">System Service Offers</h1>
   <div class="row mb-5">
       <div class="col-12 col-sm-6 col-md-3 m-auto">
@@ -165,9 +167,8 @@
                   <h3 class="text-center">News/Events</h3>
                   <hr class="mx-auto w-75">
                   <p>
-                    Plate-to-Place Barangay Tricycle Tracking management Offers services that can access the Vihecle Information
-                    of Driver by the Authorize personel for Possible Complain
-                  </p>
+                    Tricycle tracking management systems are evolving to offer more comprehensive services By integrating real-time
+                     news updates and local event notifications within their platforms.
               </div>
           </div>
           <!-- card ends here -->
@@ -178,11 +179,11 @@
           <div class="card shadow">
               <img src="images/s2.svg" alt="" class="card-img-top">
               <div class="card-body">
-                  <h3 class="text-center">Data Manipulaton</h3>
+                  <h3 class="text-center">Access Data</h3>
                   <hr class="mx-auto w-75">
-                  <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi
-                      nemo, quas delectus eveniet ducimus rem animi. Natus non earum deleniti aliquam
+                  <p></p>
+                      Plate-to-Place Barangay Tricycle Tracking management Offers services that can access the Vihecle Information
+                    of Driver by the Authorize personel for Possible Complain
                   </p>
               </div>
           </div>
@@ -197,8 +198,8 @@
                   <h3 class="text-center">File Complaint</h3>
                   <hr class="mx-auto w-75">
                   <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi
-                      nemo, quas delectus eveniet ducimus rem animi. Natus non earum deleniti aliquam
+                    This systems have expanded their capabilities to include a "File a Report for Inconvenience" 
+                    allowing commuters to report any inconvenience encountered during their tricycle rides. 
                   </p>
               </div>
           </div>
@@ -213,8 +214,8 @@
                   <h3 class="text-center">Tracking System</h3>
                   <hr class="mx-auto w-75">
                   <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi
-                      nemo, quas delectus eveniet ducimus rem animi. Natus non earum deleniti aliquam
+                      Plate-to-Place systems have significantly improved their offerings by providing 
+                      comprehensive tracking management services to help Passenger to report any Inconvenience Services.
                   </p>
               </div>
           </div>
@@ -227,7 +228,7 @@
 <!--Accordion part-->
 
 
-<section class="section p-7">
+<section class="section p-7" id="FAQ">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
@@ -310,8 +311,8 @@
 
 <!--contact-->
   
-<section>
-  <div class="contact-container bg-white custom-shadow mt-n5">
+<section id="Contact">
+  <div class="contact-container bg-white custom-shadow mt-n6">
     <div class="form-container">
       <h3>Message Us</h3>
       <form action="" class="contact-form ">
@@ -331,22 +332,6 @@
   </div>
 </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!--footer section-->
 <footer>
   <div class="footer-container">
@@ -354,15 +339,14 @@
             <div class="col" id="company">
               <a class="logo text-white"  href="#">BRGY-409 CITY OF MANILA</a>
                 <p id="fotlog">
-                  We are specialized in designings, make your business a brand.
-                  Try our premium services.
+                  Barangay 409 is situated at approximately 14.6020, 120.9972, in the island of Luzon. 
+               
                 </p>
                 <div class="social">
                   <a href="https://www.facebook.com/Barangay409" target="_blank"><i class="fab fa-facebook"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.instagram.com/explore/locations/406245693534408/barangay-409-manila-city/"><i class="fab fa-instagram"></i></a>
                   <a href="https://www.youtube.com/@JoshuaSariego" target="_blank"><i class="fab fa-youtube"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                 
                 </div>
             </div>
 
@@ -370,20 +354,20 @@
             <div class="col" id="services">
                <h3>Services</h3>
                <div class="links">
-                  <a href="#">Illustration</a>
-                  <a href="#">Creatives</a>
-                  <a href="#">Poster Design</a>
-                  <a href="#">Card Design</a>
+                  <a href="#">Tracking Management</a>
+                  <a href="#">Report Driver Violation</a>
+                  <a href="#">Improved Safety</a>
+                  <a href="#">News/Events</a>
                </div>
             </div>
 
             <div class="col" id="useful-links">
                <h3>Links</h3>
                <div class="links">
-                  <a href="#">About</a>
-                  <a href="#">Services</a>
-                  <a href="#">Our Policy</a>
-                  <a href="#">Help</a>
+                  <a href="#carouselExampleDark">Home</a>
+                  <a href="#aboutus">About</a>
+                  <a href="#Services">Services</a>
+                  <a href="#Contact">Contact</a>
                </div>
             </div>
 
