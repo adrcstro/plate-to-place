@@ -351,7 +351,7 @@ margin-top: -4rem;
   font-weight: 600;
   font-size: 1.6rem;
 }
-    
+   
 .bullets {
   display: flex;
   align-items: center;
@@ -370,7 +370,7 @@ margin-top: -4rem;
   transition: 0.3s;
 }
 .dropdown{
-  margin-top: -6rem;
+  margin-top: -9rem;
 }
 .actual-form{
   margin-top: -6rem;
@@ -391,24 +391,12 @@ margin-top: -4rem;
     margin-top: -4rem;
   }
 .formsignin{
-  margin-top: -6rem;
+  margin-top: -1rem;
 }
-#Filefield{
-  margin-top: 3rem;
-}
-.custom-label{
-  margin-top: -2rem;
+.sign-in-form{
+  margin-top: -4.5rem;
 }
 
-.sign-in-form{
-  margin-top: 1rem;
-}
-.dropdown{
-  margin-top: -3rem;
-}
-.formsignin{
-  margin-top: -4rem;
-}
 .loginaccount{
   color: #151111;
   text-decoration: none;
@@ -419,6 +407,13 @@ margin-top: -4rem;
 .loginaccount:hover{
   color: #8371fd;
 }
+
+
+
+
+
+
+
 
 @media (max-width: 850px) {
   .box {
@@ -496,12 +491,9 @@ margin-top: 2rem;
 }
 
 .formsignin{
-  margin-top: -2rem;
+  margin-top: 1rem;
 }
-.dropdown{
-  position: relative; /* or any other position value that suits your layout */
-  top: -1rem; 
-}
+
 
 }
 
