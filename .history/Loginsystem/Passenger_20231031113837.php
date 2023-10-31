@@ -23,11 +23,11 @@
     function changeLoginType(type) {
         document.getElementById('loginDropdown').innerText = 'Login as ' + type;
     }
-</script>   
+</script>
               <div class="heading">
                 <h2>Get Started</h2>
                 <h6>Already have an Account?</h6>
-                <a href="login.php" class="loginaccount" data-target="img-2">Log in</a>
+                <a href="#" class="toggle" data-target="img-2">Log in</a>
               </div>
               <div class="dropdown">
     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="loginDropdown">

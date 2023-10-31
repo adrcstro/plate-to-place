@@ -6,12 +6,12 @@
     <link rel="shortcut icon" type="x-icon" href="../images/webicon.png">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="passenger.css">
+    <link rel="stylesheet" href="driver.css">
    
     <title>Brangay409-3WHeel-Tracking-System</title>
 </head>
 
-<body>
+<body>    
 
 <main>
       <div class="box">
@@ -23,15 +23,15 @@
     function changeLoginType(type) {
         document.getElementById('loginDropdown').innerText = 'Login as ' + type;
     }
-</script>   
+</script>
               <div class="heading">
                 <h2>Get Started</h2>
                 <h6>Already have an Account?</h6>
-                <a href="login.php" class="loginaccount" data-target="img-2">Log in</a>
+                <a href="#" class="toggle" data-target="img-2">Log in</a>
               </div>
               <div class="dropdown">
     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="loginDropdown">
-        Signup as Passenger
+        Signup as Driver
     </button>
     <ul class="dropdown-menu">
         <li><a class="dropdown-item" href="Passenger.php" onclick="changeLoginType('Passenger')">Passenger</a></li>
@@ -74,7 +74,22 @@
                     autocomplete="off"
                     required
                   />
-                  <label>Gender</label>
+                  <label>Plate Number</label>
+                </div>
+
+                <div id="Filefield" class="input-wrap mb-5">
+  <label for="formFile" class="custom-label">Driver's license</label>
+  <input class="form-control" type="file" id="formFile" title="Please ensure the image is clear and legible" class="custom-title">
+</div>
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Vehicle Registration</label>
                 </div>
 
                 <div class="input-wrap">
@@ -85,7 +100,17 @@
                     autocomplete="off"
                     required
                   />
-                  <label>Phone</label>
+                  <label>Permit to Operate</label>
+                </div>
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Email</label>
                 </div>
                 <div class="input-wrap">
                   <input
@@ -97,18 +122,6 @@
                   />
                   <label>Home Address</label>
                 </div>
-
-                <div class="input-wrap">
-                  <input
-                    type="text"
-                    minlength="4"
-                    class="input-field"
-                    autocomplete="off"
-                    required
-                  />
-                  <label>Email</label>
-                </div>
-
                 <p class="text">
                   Forgotten your password on your login datails?
 

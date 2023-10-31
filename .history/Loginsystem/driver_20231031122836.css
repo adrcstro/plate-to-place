@@ -370,7 +370,7 @@ margin-top: -4rem;
   transition: 0.3s;
 }
 .dropdown{
-  margin-top: -9rem;
+  margin-top: -6rem;
 }
 .actual-form{
   margin-top: -6rem;
@@ -391,25 +391,14 @@ margin-top: -4rem;
     margin-top: -4rem;
   }
 .formsignin{
-  margin-top: -10rem;
+  margin-top: -6rem;
 }
-.sign-in-form{
-  margin-top: -4.5rem;
+#Filefield{
+  margin-top: 3rem;
 }
-
-.loginaccount{
-  color: #151111;
-  text-decoration: none;
-  font-size: 0.75rem;
-  font-weight: 500;
-  transition: 0.3s;
+.custom-label{
+  margin-top: -2rem;
 }
-.loginaccount:hover{
-  color: #8371fd;
-}
-
-
-
 
 
 

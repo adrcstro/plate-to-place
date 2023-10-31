@@ -71,7 +71,7 @@
                 <input type="submit" value="Sign In" class="sign-btn" />
                 <h5 id="textcon">Continue with</h5>
                 <button type="button" class="login-with-google-btn" >
-            s    Sign in with Google
+                Sign in with Google
                  </button>
               </div>
               </div>
@@ -87,7 +87,7 @@
                 <h6>Already have an account?</h6>
                 <a href="#" class="toggle" data-target="img-1">Sign up</a>
               </div>
-              <div id="secropdown" class="dropdownsignup">
+              <div class="dropdownsignup">
     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="loginDropdown">
         Signup as
     </button>

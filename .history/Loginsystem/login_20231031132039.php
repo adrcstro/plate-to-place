@@ -87,7 +87,7 @@
                 <h6>Already have an account?</h6>
                 <a href="#" class="toggle" data-target="img-1">Sign up</a>
               </div>
-              <div id="secropdown" class="dropdownsignup">
+              <div id="2nddropdown" class="dropdownsignup">
     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="loginDropdown">
         Signup as
     </button>

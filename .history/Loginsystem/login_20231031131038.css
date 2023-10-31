@@ -79,7 +79,7 @@ main {
   position: relative;
   width: 100%;
   max-width: 1020px;
-  height: 1100px;
+  height: 590px;
   background-color: #fff;
   border-radius: 1.3rem;
   box-shadow: 0 60px 40px -30px rgba(0, 0, 0, 0.27);
@@ -223,12 +223,6 @@ label {
   display: block;
 }
 
-.FAQESTION{
-  margin-top: -3rem;
-}
-
-
-
 .hide {
   display: none;
 }
@@ -248,9 +242,6 @@ label {
   transition: 0.3s;
  
 }
-
-
-
 
 .text a:hover {
   color: #8371fd;
@@ -369,12 +360,7 @@ margin-top: -4rem;
   cursor: pointer;
   transition: 0.3s;
 }
-.dropdown{
-  margin-top: -9rem;
-}
-.actual-form{
-  margin-top: -6rem;
-}
+
 .bullets span.active {
   width: 1.1rem;
   background-color: #151111;
@@ -383,31 +369,13 @@ margin-top: -4rem;
 .actual-form{
   margin-top: 20px;
   }
-  .col-md-12{
-    margin-top: -4rem;
-  }
-
-  .sign-in-form{
-    margin-top: -4rem;
-  }
+  
+.dropdown{
+  margin-top: -1rem;
+}
 .formsignin{
-  margin-top: -10rem;
+  margin-top: -1.7rem;
 }
-.sign-in-form{
-  margin-top: -4.5rem;
-}
-
-.loginaccount{
-  color: #151111;
-  text-decoration: none;
-  font-size: 0.75rem;
-  font-weight: 500;
-  transition: 0.3s;
-}
-.loginaccount:hover{
-  color: #8371fd;
-}
-
 
 
 
@@ -480,22 +448,12 @@ margin-top: -4rem;
 .actual-form{
 margin-top: 2rem;
 }
-.col-md-12{
-  margin-top: -3rem;
-}
-.dropdown{
-  margin-top: -1rem;
-}
-.sign-in-form{
-  margin-top: -1rem;
-}
 
-.formsignin{
-  margin-top: 1rem;
 }
 
 
-}
+
+
 
 @media (max-width: 528px) {
   main {
@@ -530,23 +488,13 @@ margin-top: 2rem;
   .bullets{
     margin-top: -1rem;
 }
-.col-md-12{
-  margin-top: 1rem;
+ 
 }
-
-
-}
-
-
-
-
-
-
 
 
 @media (max-width: 390px) {
     .text-slider{
         margin-top: 2rem;
     }
-  
+    
 }
