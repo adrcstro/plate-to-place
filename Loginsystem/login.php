@@ -71,7 +71,7 @@
                 <input type="submit" value="Sign In" class="sign-btn" />
                 <h5 id="textcon">Continue with</h5>
                 <button type="button" class="login-with-google-btn" >
-            s    Sign in with Google
+               Sign in with Google
                  </button>
               </div>
               </div>

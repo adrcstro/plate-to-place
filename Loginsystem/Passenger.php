@@ -108,7 +108,16 @@
                   />
                   <label>Email</label>
                 </div>
-
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Password</label>
+                </div>
                 <p class="text">
                   Forgotten your password on your login datails?
 
